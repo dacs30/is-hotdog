@@ -1,6 +1,6 @@
 # SeeFood 🌭 — Android Hot Dog Detector
 
-<img width="1080" height="2424" alt="image" src="https://github.com/user-attachments/assets/136c2c60-ac45-42aa-84e9-ae854cef973c" />
+<img width="360" height="808" alt="image" src="https://github.com/user-attachments/assets/136c2c60-ac45-42aa-84e9-ae854cef973c" />
 
 A fully offline Android app that points your camera at the world and tells you one thing:
 **HOTDOG** or **NOT HOTDOG**. Inspired by Silicon Valley's "SeeFood".
