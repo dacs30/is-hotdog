@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SeeFood" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/seefood_primary</item>
+        <item name="colorPrimaryVariant">@color/seefood_primary_dark</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

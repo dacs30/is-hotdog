@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <!-- Camera preview fills the screen -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Result banner anchored to the bottom -->
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="64dp"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="16dp"
+        android:background="@color/not_hotdog_red"
+        android:text="@string/not_hotdog"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Confidence read-out for tuning -->
+    <TextView
+        android:id="@+id/confidenceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="6" />
+
+</FrameLayout>

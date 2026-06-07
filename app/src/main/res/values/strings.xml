@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SeeFood</string>
+    <string name="hotdog">HOTDOG 🌭</string>
+    <string name="not_hotdog">NOT HOTDOG ❌</string>
+    <string name="confidence_fmt">hot dog confidence: %.1f%%</string>
+    <string name="camera_permission_denied">Camera permission is required to detect hot dogs.</string>
+</resources>
